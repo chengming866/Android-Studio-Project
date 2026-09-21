@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/tabBar"
+        android:layout_width="0dp"
+        android:layout_height="68dp"
+        android:background="@color/space_tab_bar"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:contentDescription="@string/content_description_space_station"
+                android:scaleType="centerInside"
+                android:src="@drawable/space_station_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/space_stations"
+                android:textColor="@color/space_tab_text"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:contentDescription="@string/content_description_rocket"
+                android:scaleType="centerInside"
+                android:src="@drawable/rocket_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/flights"
+                android:textColor="@color/space_tab_text"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="34dp"
+                android:layout_height="34dp"
+                android:contentDescription="@string/content_description_rover"
+                android:scaleType="centerInside"
+                android:src="@drawable/rover_icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rovers"
+                android:textColor="@color/space_tab_text"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/tabDivider"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#D0D0D0"
+        app:layout_constraintBottom_toBottomOf="@id/tabBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/dcaCard"
+        android:layout_width="105dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:background="@color/space_card_green"
+        android:elevation="3dp"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dca"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/marsCard"
+        android:layout_width="105dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="24dp"
+        android:background="@color/space_card_green"
+        android:elevation="3dp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tabBar">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mars"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/exchangeImage"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:background="@drawable/white_square_border"
+        android:contentDescription="@string/content_description_exchange"
+        android:elevation="5dp"
+        android:padding="4dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/double_arrows"
+        app:layout_constraintBottom_toBottomOf="@id/dcaCard"
+        app:layout_constraintEnd_toEndOf="@id/marsCard"
+        app:layout_constraintStart_toStartOf="@id/dcaCard"
+        app:layout_constraintTop_toTopOf="@id/dcaCard" />
+
+    <LinearLayout
+        android:id="@+id/oneWayCard"
+        android:layout_width="132dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:background="@color/space_orange"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:paddingEnd="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dcaCard">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/one_way"
+            android:textColor="@android:color/white"
+            android:textSize="10sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="48dp"
+            android:layout_height="32dp"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:clickable="false"
+            android:focusable="false"
+            android:thumbTint="@android:color/white"
+            android:trackTint="@android:color/transparent" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/travellerBadge"
+        android:layout_width="100dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/space_orange"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:text="@string/one_traveller"
+        android:textColor="@android:color/white"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/oneWayCard" />
+
+    <ImageView
+        android:id="@+id/rocketImage"
+        android:layout_width="30dp"
+        android:layout_height="48dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/content_description_rocket"
+        android:scaleType="fitCenter"
+        android:src="@drawable/rocket_icon"
+        app:layout_constraintBottom_toBottomOf="@id/galaxyImage"
+        app:layout_constraintEnd_toStartOf="@id/galaxyImage"
+        app:layout_constraintTop_toTopOf="@id/galaxyImage" />
+
+    <ImageView
+        android:id="@+id/galaxyImage"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="128dp"
+        android:contentDescription="@string/content_description_galaxy"
+        android:scaleType="fitCenter"
+        android:src="@drawable/galaxy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/travellerBadge" />
+
+    <Button
+        android:id="@+id/departButton"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:background="@color/space_card_green"
+        android:fontFamily="sans"
+        android:minHeight="0dp"
+        android:padding="0dp"
+        android:stateListAnimator="@null"
+        android:text="@string/depart"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

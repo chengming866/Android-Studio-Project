@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AndroidCompose" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="fontFamily">sans</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="colorPrimary">@color/task_red</item>
+        <item name="colorPrimaryVariant">@color/task_red_dark</item>
+        <item name="colorSecondary">@color/task_red</item>
+        <item name="android:colorAccent">@color/task_red</item>
+    </style>
+</resources>
+
