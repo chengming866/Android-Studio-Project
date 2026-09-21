@@ -1,1 +1,0 @@
-创建的第一个Android-Studio项目，并完成Android-Studio的运行和Github的绑定，截图在Screenshots,名称为创建Android-Studio图
