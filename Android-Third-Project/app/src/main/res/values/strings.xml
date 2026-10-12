@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Third Project</string>
+    <string name="animal_image_description">Animal image</string>
+    <string name="screen_title">实验五：RecyclerView 动物列表</string>
+    <string name="no_selection">请点击列表项</string>
+    <string name="selected_animal">当前选择：%1$s</string>
+</resources>
+
