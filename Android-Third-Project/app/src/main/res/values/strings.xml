@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Android Third Project</string>
+    <string name="app_name">Android 课程实验三</string>
+    <string name="lab_title">实验三</string>
+    <string name="app_heading">Android 界面组件实验</string>
+    <string name="module_prompt">请选择要查看的实验模块</string>
+    <string name="module_list">1. Android ListView&amp;RecyclerView</string>
+    <string name="module_dialog">2. 创建自定义布局的AlertDialog</string>
+    <string name="module_menu">3. 使用XML定义菜单</string>
+    <string name="module_action_mode">4. 创建上下文操作模式(ActionMode)的上下文菜单</string>
     <string name="animal_image_description">Animal image</string>
-    <string name="screen_title">实验五：RecyclerView 动物列表</string>
+    <string name="screen_title">1. Android ListView &amp; RecyclerView</string>
     <string name="no_selection">请点击列表项</string>
     <string name="selected_animal">当前选择：%1$s</string>
+
+    <string name="dialog_screen_title">2. 创建自定义布局的 AlertDialog</string>
+    <string name="dialog_screen_description">使用 AlertDialog.Builder.setView() 加载自定义登录布局。</string>
+    <string name="open_dialog">打开登录对话框</string>
+    <string name="dialog_header">ANDROID APP</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_sign_in">Sign in</string>
+    <string name="username_required">请输入用户名</string>
+    <string name="password_required">请输入密码</string>
+    <string name="sign_in_success">登录成功：%1$s</string>
+
+    <string name="menu_test_title">MenuTest</string>
+    <string name="menu_test_content">用于测试的内容</string>
+    <string name="menu_font_size">字体大小</string>
+    <string name="menu_font_small">小</string>
+    <string name="menu_font_medium">中</string>
+    <string name="menu_font_large">大</string>
+    <string name="menu_normal">普通菜单项</string>
+    <string name="menu_font_color">字体颜色</string>
+    <string name="menu_font_red">红色</string>
+    <string name="menu_font_black">黑色</string>
+    <string name="normal_menu_toast">已点击普通菜单项</string>
+
+    <string name="action_mode_icon_description">Android 图标</string>
+    <string name="action_mode_delete">删除</string>
+    <string name="action_mode_selected_count">%1$d selected</string>
+    <string name="action_mode_deleted">已删除 %1$d 项</string>
 </resources>
 

@@ -9,7 +9,7 @@ import androidx.activity.enableEdgeToEdge
 import com.example.androidcompose.ui.StudyTaskScreen
 import com.example.androidcompose.ui.theme.AndroidComposeTheme
 
-class MainActivity : ComponentActivity() {
+class StudyTaskActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge(
@@ -23,4 +23,3 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-

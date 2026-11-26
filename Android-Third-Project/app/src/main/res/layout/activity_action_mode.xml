@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/action_mode_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/action_mode_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/action_mode_divider"
+        android:dividerHeight="1dp"
+        android:listSelector="@color/action_mode_selected"
+        android:overScrollMode="never"
+        android:scrollbars="vertical" />
+
+</LinearLayout>
