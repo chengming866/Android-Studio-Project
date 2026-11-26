@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/linear_cell"
+    android:fitsSystemWindows="true"
     android:orientation="vertical"
     android:padding="3dp">
 
@@ -21,7 +22,7 @@
             android:gravity="center"
             android:text="@string/linear_one_one"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -32,7 +33,7 @@
             android:gravity="center"
             android:text="@string/linear_one_two"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -43,7 +44,7 @@
             android:gravity="center"
             android:text="@string/linear_one_three"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -54,7 +55,7 @@
             android:gravity="center"
             android:text="@string/linear_one_four"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -72,7 +73,7 @@
             android:gravity="center"
             android:text="@string/linear_two_one"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -83,7 +84,7 @@
             android:gravity="center"
             android:text="@string/linear_two_two"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -94,7 +95,7 @@
             android:gravity="center"
             android:text="@string/linear_two_three"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -105,7 +106,7 @@
             android:gravity="center"
             android:text="@string/linear_two_four"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -123,7 +124,7 @@
             android:gravity="center"
             android:text="@string/linear_three_one"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -134,7 +135,7 @@
             android:gravity="center"
             android:text="@string/linear_three_two"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -145,7 +146,7 @@
             android:gravity="center"
             android:text="@string/linear_three_three"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -156,7 +157,7 @@
             android:gravity="center"
             android:text="@string/linear_three_four"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -174,7 +175,7 @@
             android:gravity="center"
             android:text="@string/linear_four_one"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -185,7 +186,7 @@
             android:gravity="center"
             android:text="@string/linear_four_two"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -196,7 +197,7 @@
             android:gravity="center"
             android:text="@string/linear_four_three"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
 
         <TextView
             android:layout_width="0dp"
@@ -207,7 +208,7 @@
             android:gravity="center"
             android:text="@string/linear_four_four"
             android:textColor="@color/linear_text"
-            android:textSize="24sp" />
+            android:textSize="18sp" />
     </LinearLayout>
 
 </LinearLayout>

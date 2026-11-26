@@ -5,5 +5,12 @@
     <color name="item_selected">#FFB50000</color>
     <color name="selection_bar_background">#FFE5E5E5</color>
     <color name="text_primary">#FF111111</color>
+    <color name="text_secondary">#FF666666</color>
+    <color name="dialog_orange">#FFF5B62B</color>
+    <color name="dialog_field_accent">#FF2196F3</color>
+    <color name="dialog_divider">#FFD6D6D6</color>
+    <color name="font_red">#FFFF0000</color>
+    <color name="action_mode_selected">#FF30A9DD</color>
+    <color name="action_mode_divider">#FFE2E2E2</color>
 </resources>
 

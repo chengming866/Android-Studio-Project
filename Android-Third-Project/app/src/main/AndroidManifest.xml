@@ -9,6 +9,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AnimalList">
         <activity
+            android:name=".ActionModeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".XmlMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomDialogActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".AnimalListActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

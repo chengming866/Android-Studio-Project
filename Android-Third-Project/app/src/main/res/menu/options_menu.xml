@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/font_size_menu"
+        android:title="@string/menu_font_size">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/font_small"
+                    android:title="@string/menu_font_small" />
+                <item
+                    android:id="@+id/font_medium"
+                    android:checked="true"
+                    android:title="@string/menu_font_medium" />
+                <item
+                    android:id="@+id/font_large"
+                    android:title="@string/menu_font_large" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/normal_menu_item"
+        android:title="@string/menu_normal" />
+
+    <item
+        android:id="@+id/font_color_menu"
+        android:title="@string/menu_font_color">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/font_red"
+                    android:title="@string/menu_font_red" />
+                <item
+                    android:id="@+id/font_black"
+                    android:checked="true"
+                    android:title="@string/menu_font_black" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

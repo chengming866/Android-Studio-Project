@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Android Compose 实验</string>
+    <string name="app_name">实验二 Android 界面布局</string>
 
     <string name="linear_one_one">One,One</string>
     <string name="linear_one_two">One,Two</string>
