@@ -15,4 +15,10 @@ local.properties
 **/Screenshots/*.webp
 **/Screenshots/*.bmp
 **/Screenshots/*.svg
+!Android-Third-Project/screenshots/
+!Android-Third-Project/screenshots/实验三初始界面.png
+!Android-Third-Project/screenshots/Android ListView&RecyclerView.png
+!Android-Third-Project/screenshots/2. 创建自定义布局的AlertDialog.png
+!Android-Third-Project/screenshots/3. 使用XML定义菜单.png
+!Android-Third-Project/screenshots/4. 创建上下文操作模式(ActionMode)的上下文菜单.png
 .DS_Store
